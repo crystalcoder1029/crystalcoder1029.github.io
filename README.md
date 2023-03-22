@@ -1,5 +1,5 @@
 # React Portfolio, Multiple pages
-![Model](http://localhost:3001/images/nomad-bro.png)
+<a href="https://crystalcoder1029.github.io/"><img src="crystalcoder1029.github.io/images/nomad-amico.png"></img></a>
 ## Features
 
 • Multi-Page Layout
