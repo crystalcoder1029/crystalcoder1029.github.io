@@ -46,6 +46,9 @@ html, body{
 .text-red {
     color: #E94560;
 }
+.text-green {
+  color: #55e945;
+}
 .text-black {
     color: #1A1A2E;
 }
@@ -115,12 +118,26 @@ html, body{
     animation-iteration-count: 1;
     animation-name: slideInBottom;
   }
-
+  .slide-in-bottom-back {
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInBottom;
+  }
+  .slide-in-bottom-margin {
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInBottom;
+    padding-left: 8;
+  }
 /* ===================== Transition ===================== */
 
 .animate-charcter
 {
-  background-image: linear-gradient(-225deg,#ffffff,#E94560,#E94560,#ffffff);
+  background-image: linear-gradient(-225deg,#ffffff,#48e945,#aae945,#ffffff);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;

@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import {SiJavascript,SiMicrosoftsqlserver,SiNodedotjs,SiDotnet,SiReact,SiHtml5,SiCss3,SiBootstrap,SiCsharp,SiMongodb,SiExpress,SiPug} from 'react-icons/si'
+import {SiJavascript,SiMicrosoftsqlserver,SiNodedotjs,SiDotnet,SiReact,SiHtml5,SiCss3,SiBootstrap,SiCsharp,SiMongodb,SiExpress,SiPug, SiLaravel, SiAwsamplify, SiDjango, SiFlask, SiPhp} from 'react-icons/si'
 function Skills() {
   return (
     <Fragment>
@@ -17,13 +17,10 @@ function Skills() {
                                     <span><SiJavascript className='fs-4'/> JavaScript</span>
                                 </div>
                                 <div className='mx-2 my-3 border rounded py-1 px-2 mw-fc'>
-                                    <span><SiMicrosoftsqlserver className='fs-4'/> Microsoft SQL Server</span>
+                                    <span><SiPhp className='fs-4'/> PHP</span>
                                 </div>
                                 <div className='mx-2 my-3 border rounded py-1 px-2 mw-fc'>
                                     <span><SiNodedotjs className='fs-4'/> Node.js</span>
-                                </div>
-                                <div className='mx-2 my-3 border rounded py-1 px-2 mw-fc'>
-                                    <span><SiDotnet className='fs-4'/> ASP.NET Core</span>
                                 </div>
                                 <div className='mx-2 my-3 border rounded py-1 px-2 mw-fc'>
                                     <span><SiReact className='fs-4'/> React</span>
@@ -38,18 +35,23 @@ function Skills() {
                                     <span><SiBootstrap className='fs-4'/> Bootstrap</span>
                                 </div>
                                 <div className='mx-2 my-3 border rounded py-1 px-2 mw-fc'>
-                                    <span><SiCsharp className='fs-4'/> C#</span>
-                                </div>
-                                <div className='mx-2 my-3 border rounded py-1 px-2 mw-fc'>
                                     <span><SiMongodb className='fs-4'/> MongoDB</span>
                                 </div>
                                 <div className='mx-2 my-3 border rounded py-1 px-2 mw-fc'>
                                     <span><SiExpress className='fs-4'/> Express</span>
                                 </div>
                                 <div className='mx-2 my-3 border rounded py-1 px-2 mw-fc'>
-                                    <span><SiPug className='fs-4'/> Pug</span>
+                                    <span><SiLaravel className='fs-4'/> Laravel</span>
                                 </div>
-                                
+                                <div className='mx-2 my-3 border rounded py-1 px-2 mw-fc'>
+                                    <span><SiAwsamplify className='fs-4'/> AWS</span>
+                                </div>
+                                <div className='mx-2 my-3 border rounded py-1 px-2 mw-fc'>
+                                    <span><SiDjango className='fs-4'/> Django</span>
+                                </div>
+                                <div className='mx-2 my-3 border rounded py-1 px-2 mw-fc'>
+                                    <span><SiFlask className='fs-4'/> Flask</span>
+                                </div>
                             </div>
 
                             

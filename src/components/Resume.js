@@ -1,5 +1,21 @@
 import React, { Fragment } from 'react'
 import { SiCodechef, SiHackerrank } from 'react-icons/si';
+import { 
+    tempname,
+    com_period1,
+    com_period2,
+    companyname1,
+    companyname2,
+    company1_role,
+    company2_role,
+    company1_location,
+    company2_location,
+    edu_role,
+    edu_role_period,
+    edu_school,
+    profile_url
+} 
+    from './Home';
 
 function Resume() {
   return (
@@ -9,7 +25,7 @@ function Resume() {
                 
                 <div className="row">
                     <div className="col-6">
-                        <h2 className="ff-jose fw-bold ls-2">YAGNIK GOHIL</h2>
+                        <h2 className="ff-jose fw-bold ls-2">{tempname}</h2>
                     </div>
                 </div>
                 <hr></hr>
@@ -18,16 +34,16 @@ function Resume() {
                         <h4 className="ff-jose ls-2">EXPERIENCE</h4>
                         <ul>
                             <li>
-                                <h4 className="ff-jose my-1 text-red">Trainee Software Engineer</h4>
-                                <h6 className="blue-label px-2 py-1">Jul 2021 - Apr 2022</h6>
-                                <p className="m-0">TatvaSoft · Full-time</p>
-                                <p>Ahmedabad, Gujarat, India</p>
+                                <h4 className="ff-jose my-1 text-red">{company2_role}</h4>
+                                <h6 className="blue-label px-2 py-1">{com_period2}</h6>
+                                <p className="m-0">{companyname2} · Full-time</p>
+                                <p>{company2_location}</p>
                             </li>
                             <li>
-                                <h4 className="ff-jose my-1 text-red">Internship Trainee</h4>
-                                <h6 className="blue-label px-2 py-1">Dec 2020 - Apr 2021</h6>
-                                <p className="m-0">TatvaSoft · Internship</p>
-                                <p>Ahmedabad, Gujarat, India</p>
+                                <h4 className="ff-jose my-1 text-red">{company1_role}</h4>
+                                <h6 className="blue-label px-2 py-1">{com_period1}</h6>
+                                <p className="m-0">{companyname1} · Internship</p>
+                                <p>{company1_location}</p>
                             </li>
                         </ul>
                     </div>
@@ -36,9 +52,9 @@ function Resume() {
                         <h4 className="ff-jose ls-2">EDUCATION</h4>
                         <ul>
                             <li>
-                                <h4 className="ff-jose my-1 text-red">BE - Computer Engineering</h4>
-                                <h6 className="blue-label px-2 py-1">2017 - 2021</h6>
-                                <p className="m-0">Gujarat Technological University</p>
+                                <h4 className="ff-jose my-1 text-red">{edu_role}</h4>
+                                <h6 className="blue-label px-2 py-1">{edu_role_period}</h6>
+                                <p className="m-0">{edu_school}</p>
                                 <p>CGPA: 8.05</p>
                             </li>
                             <li>
@@ -48,7 +64,6 @@ function Resume() {
                                 <p>Grade: 71.69 %</p>
                             </li>
                         </ul>
-
                     </div>
                 </div>
 
@@ -58,11 +73,8 @@ function Resume() {
                     <div className="col-md-6">
                         <h4 className="ff-jose ls-2">PROFILE</h4>
                         <h1>
-                            <a href="https://www.codechef.com/users/yagnik_003" target="/blank" className="text-white text-decoration-none mx-2">
+                            <a href={profile_url} target="/blank" className="text-white text-decoration-none mx-2">
                                 <SiCodechef className="zoom-on-hover"/>
-                            </a> 
-                            <a href="https://www.hackerrank.com/Yagnik_003" target="/blank" className="text-white text-decoration-none mx-2">
-                                <SiHackerrank className="zoom-on-hover"/>
                             </a> 
                         </h1>
                     </div>

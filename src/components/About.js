@@ -7,28 +7,22 @@ function About() {
 
             <div className="container">
                 <div className="row">
-
-
-
-
                     <div className="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
                         <div>
                             <h1 className="font-big text-red slide-in-top">About me</h1>
                             <hr></hr>
-                            <p className='slide-in-bottom'>Ambitious full-stack developer, a self-led learner and team player  <br></br>
-                                with one year of experience in web developement.
+                            <p className='m-5 font-small animate-charcter'>Ambitious full-stack developer,<br></br> a self-led learner and team player,  <br></br>
+                            Full-stack web developer, <br></br></p>
+                            <p className='slide-in-bottom'>with 6+years of experience that involve Backend Technologies 
+                            using MERN stack, Laravel MVC framework, Django Python Web framework, Serverless architecture that contains AWS technology and Blockchain.
                             </p>
                             <p className='slide-in-bottom'>
-                                Currently looking for new opportunities in industry and willing<br></br>
-                                to work on challenging and diverse projects with the latest technologies.
+                                Best Site<br></br>
+                                In 2020 : <span className="ls-2">With 8 other developers I developed a great, large-scale site (<a href="https://heliasoils.com/"><span className="text-green ls-2">https://heliasoils.com/</span></a>) that has a smart theme design, related Shopify 
+                                features and through that project I made great process. </span>
                             </p>
                             <p className='slide-in-bottom'>
-                                Previously worked as Full stack web developer.<br></br>
-                                The technology I've worked on : <span className="text-red ls-2">Asp.Net Core, Asp.Net Mvc, <br></br>
-                                C#, Sql, Ssms, Telerik-UI, Html, Css, Js, Bootstrap </span>
-                            </p>
-                            <p className='slide-in-bottom'>
-                                Currently Learning React Js Library
+                                Currently Learning ChatGPT, OpenAI and other Web AI technolgies
                             </p>
                         </div>
                     </div>
