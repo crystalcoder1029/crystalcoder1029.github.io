@@ -1,6 +1,4 @@
 # React Portfolio, Multiple pages
-
-![Alternate image text](<a href="https://crystalcoder1029.github.io/">https://crystalcoder1029.github.io/images/nomad-bro.png </a>)
 <a href="https://crystalcoder1029.github.io/"><img src="https://crystalcoder1029.github.io/images/nomad-bro.png"></img></a>
 ## Features
 
